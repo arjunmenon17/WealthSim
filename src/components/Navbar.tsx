@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-left">
           <Link to="/" className="navbar-logo">
-            Wealth Sim
+            Wealth Simfwerfsdfgsfd
             <img
               src="/src/assets/logo.png"
               alt="WealthSim"
