@@ -8,11 +8,12 @@
     outline: none;
     border: none;
     cursor: pointer;
+    margin-right: 25px;
 }
 
 .btn--primary{
-    background-color: var(--primary);
-    color: #242424;
+    background-color: #586bdb;
+    color: #ffffff;
     border: 1px solid var(--primary);
 }
 
@@ -22,7 +23,6 @@
     padding: 8px 20px;
     border: 1px solid #586bdb;
     transition: all 0.3s ease-out;
-    margin-right: 25px;
 }
 
 .btn--medium {
@@ -36,7 +36,7 @@
 }
 
 .btn--medium:hover, .btn--large:hover {
-    background: #586bdb;
-    color: #ffffff;
+    background: #b7c2ff;
+    color: #586bdb;
     transition: all 0.3s ease-out;
 }

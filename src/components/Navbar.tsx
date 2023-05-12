@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 import "./Navbar.css";
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [buttons, setButtons] = useState(true);
@@ -77,10 +76,10 @@ function Navbar() {
           </ul>
           {buttons && (
             <>
-              <Button type="button" buttonStyle="btn--outline" link="/login">
+              <Button type="button" buttonStyle="btn--primary" link="/login">
                 LOGIN
               </Button>
-              <Button type="button" buttonStyle="btn--outline" link="/sign-up">
+              <Button type="button" buttonStyle="btn--primary" link="/sign-up">
                 SIGN UP
               </Button>
             </>

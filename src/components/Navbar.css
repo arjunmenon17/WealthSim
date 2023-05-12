@@ -31,6 +31,11 @@
     align-items: center;
   }
 
+  .material-symbols-outlined {
+    padding-left: 15px;
+    font-size: 40px;
+  }
+
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
