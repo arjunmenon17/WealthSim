@@ -1,25 +1,29 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import { Link } from "react-router-dom";
 
 interface Props {
-  image: string;
-  title: string;
-  description: string;
-  caption: string;
+  src: string;
+  textMain: string;
+  textDesc: string;
+  label: string;
+  path: string;
 }
 
-const Card: React.FC<Props> = ({ image, title, description, caption }) => {
+function Card({ src, textMain, textDesc, label, path }: Props) {
   return (
-    <div className="card">
-      <div className="image-container">
-        <img className="card-image" src={image} alt={title} />
-        <div className="caption">{caption}</div>
-      </div>
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
-        <p className="card-description">{description}</p>
-      </div>
-    </div>
+    <>
+      <li className="cards__item">
+        <Link to={path} className="cards__item__link">
+          <figure className="cards__item__pic-wrap" data-category={label}>
+            <img src={src} alt="Videogame" className="cards__item__img" />
+          </figure>
+          <div className="cards__item__info">
+            <h1 className="cards__item__text__main">{textMain}</h1>
+            <h5 className="cards__item__text__desc">{textDesc}</h5>
+          </div>
+        </Link>
+      </li>
+    </>
   );
 }
 

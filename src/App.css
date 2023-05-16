@@ -5,6 +5,10 @@
   font-family: Century Gothic, sans-serif;
 }
 
+body {
+  background-image: linear-gradient(to top right, #0C0248, #2a0383, #6015E3);
+}
+
 .home,
 .services,
 .products,

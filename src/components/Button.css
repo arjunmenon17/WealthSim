@@ -14,7 +14,6 @@
 .btn--primary{
     background-color: #586bdb;
     color: #ffffff;
-    border: 1px solid var(--primary);
 }
 
 .btn--outline{
