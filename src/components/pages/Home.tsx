@@ -5,9 +5,7 @@ import Heroes from "../Heroes";
 function Home() {
   return (
     <>
-      <div>
-        <Heroes></Heroes>
-      </div>
+      <Heroes></Heroes>
     </>
   );
 }
