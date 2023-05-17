@@ -1,8 +1,5 @@
 .navbar {
-<<<<<<< HEAD
     background: (28262C);
-=======
->>>>>>> 04e27891532531aac3d37ff0a638bb61a1019f5c
     height: 80px;
     display: flex;
     justify-content: center;
@@ -12,6 +9,20 @@
     z-index: 999;
   }
 
+  .nav-item.active .nav-links {
+    border-bottom: 3px solid #586bdb;
+  }
+  
+  .nav-links:hover,
+  .nav-item.active .nav-links {
+    transition: all 0.1s ease-out;
+  }
+  
+  .nav-links-mobile.active {
+    background: #fff;
+    color: #242424;
+  }
+  
 .navbar-container {
     display: flex;
     background-color: transparent;

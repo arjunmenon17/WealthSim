@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [buttons, setButtons] = useState(true);
+  const location = useLocation(); // Using the useLocation hook from react-router-dom
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -22,7 +23,13 @@ function Navbar() {
     showButtons();
   }, []);
 
-  window.addEventListener("resize", showButtons);
+  useEffect(() => {
+    window.addEventListener("resize", showButtons);
+    return () => {
+      window.removeEventListener("resize", showButtons);
+    };
+  }, []); // Clean up the event listener when the component is unmounted
+
   return (
     <>
       <nav className="navbar">
@@ -40,17 +47,17 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            <li className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={`nav-item ${location.pathname === '/about' ? 'active' : ''}`}>
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={`nav-item ${location.pathname === '/learn' ? 'active' : ''}`}>
               <Link to="/learn" className="nav-links" onClick={closeMobileMenu}>
                 Learn
               </Link>
