@@ -1,6 +1,6 @@
 # WealthSim
 
-**Introduction: ** 
+**Introduction:** 
 Welcome to the official repository of WealthSim, a cutting-edge stock trading simulation website that allows you to experience the excitement and challenges of real-time stock trading in a risk-free environment. Whether you're a seasoned investor looking to test new strategies or a beginner eager to learn the ropes of stock trading, WealthSim is the perfect platform for you.
 
 **Features:**
@@ -12,7 +12,7 @@ Diverse Stock Selection: Choose from a wide range of stocks across various indus
 
 Educational Resources: New to stock trading? No problem. WealthSim offers educational resources, including tutorials, articles, and guides, to help you understand the basics of stock trading and investment.
 
-**Getting Started: **
+**Getting Started:**
 To get started with WealthSim, follow these simple steps:
 
 Sign Up: Create an account on the WealthSim website using your email or social media accounts.
@@ -25,7 +25,7 @@ Monitor Performance: Keep track of your portfolio's performance on the dashboard
 
 Learn and Improve: Don't hesitate to dive into our educational resources to enhance your understanding of stock trading. Knowledge is key to making informed decisions.
 
-**Creators: **
+**Creators:**
 
 This project was created by Arjun Menon and Affan Amir who study at the University of Toronto for Computer Science and Mechanical Engineering, respectively.
 
