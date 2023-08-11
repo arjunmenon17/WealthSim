@@ -3,7 +3,7 @@
 **Introduction: ** 
 Welcome to the official repository of WealthSim, a cutting-edge stock trading simulation website that allows you to experience the excitement and challenges of real-time stock trading in a risk-free environment. Whether you're a seasoned investor looking to test new strategies or a beginner eager to learn the ropes of stock trading, WealthSim is the perfect platform for you.
 
-Features
+**Features:**
 Real-Time Market Data: WealthSim leverages live stock market data to ensure that your trading experience closely mimics actual market conditions. This allows you to make informed decisions based on up-to-the-minute stock prices.
 
 Virtual Funds: Start with a virtual portfolio of funds that you can use to simulate buying and selling stocks. Experiment with different investment amounts without risking any real money.
