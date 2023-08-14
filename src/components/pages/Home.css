@@ -1,0 +1,10 @@
+.stocks {
+    display: flex;
+    justify-content: center;
+}
+
+.tradingview-widget-container {
+    width: 80%;
+    height: 100vh;
+    margin-bottom: 50px;
+}

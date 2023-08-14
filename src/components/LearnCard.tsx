@@ -12,7 +12,7 @@ interface Props {
 
 function LearnCard({ url, label, main, description, src, buttonTxt }: Props) {
   return (
-    <Card css={{ w: "100%", h: "400px" }}>
+    <Card isHoverable css={{ w: "100%", h: "400px" }}>
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
           <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">

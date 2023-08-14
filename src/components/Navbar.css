@@ -10,7 +10,7 @@
   }
 
   .nav-item.active .nav-links {
-    border-bottom: 3px solid #586bdb;
+    border-bottom: 6px solid white;
   }
   
   .nav-links:hover,
